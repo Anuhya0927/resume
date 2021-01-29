@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width'initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css"/>
+	<style>
+		.row-border{
+              border: 1px solid red;
+	               }
+		.col-border{
+              border: 1px dotted blue;
+	               }
+</style>
+</head>
+<body class="container" style="background-color:#9fe2bf">
+	<div class="row justify-content-center" >
+		<div class="col-4">
+			<form>
+				Name:<input type="text" placeholder="Name" class="form-control"required /><br>
+				E-Mail:<input type="email" placeholder="E-mail"  class="form-control"required/><br>
+				Address:<textarea placeholder="Address" class="form-control"></textarea> <br>
+				<label><input type="radio" name="gender" class="form-input-check">Male</label>
+				<label><input type="radio" name="gender" class="form-input-check">Female</label><br><br>
+				languages known:<label><input type="checkbox" class="form-input-check"checked/>english</label>
+				                <label><input type="checkbox" class="form-input-check"/>Telugu</label>
+				                <label><input type="checkbox" class="form-input-check"/>Hindi</label> <br><br>
+                <select class="form-select"required>
+                	<option selected disabled value="">Select city</option>
+                	<option value="vizag">vizag</option>
+                	<option value="rajahmundry">rajahmundry</option>
+                	<option value="amalapuram">amalapuram</option>
+                </select><br>
+                <input type="file" class="form-control-file"multiple><br><br>
+				<input type="submit" value="Register"class="btn btn-primary">             
+			</form>
+		</div>
+	</div>
+	</body>
+</html>
+
+
